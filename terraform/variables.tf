@@ -6,3 +6,8 @@ variable "kubernetes-config-path" {
 variable "kubernetes-context" {
   type = string
 }
+
+variable "bucket-name" {
+  type = string
+  default = "spark"
+}
